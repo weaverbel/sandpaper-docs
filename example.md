@@ -105,16 +105,16 @@ You can also include figures generated from R Markdown:
 
 ```r
 pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
+  c("Night Sky" = 78, "Soft Side of pyramid" = 17, "Softer side of pyramid" = 5), 
   init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
+  col = c("royalblue4", "wheat3", "wheat4"), 
   border = FALSE
 )
 ```
 
 <div class="figure" style="text-align: center">
 <img src="fig/example-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
-<p class="caption">Sun arise each and every morning</p>
+<p class="caption">Night falls on Hoboken</p>
 </div>
 
 Or you can use standard markdown for static figures with the following syntax:
